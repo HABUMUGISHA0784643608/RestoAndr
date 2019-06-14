@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="location" />
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="service" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+    <item android:title="About customer">
+        <menu>
+
+            <item
+                android:id="@+id/nav_comment"
+                android:icon="@drawable/ic_comment_black_24dp"
+                android:title="comment"
+                />
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="searh" />
+        </menu>
+    </item>
+
+</menu>
